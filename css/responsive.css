@@ -1,4 +1,4 @@
-@media only screen and (min-width: 991px) {
+@media only screen and (max-width: 991px) {
     .portfolio-section .portfolio-item,
     .service-section .service-item {
         flex: 0 0 50%;
@@ -6,7 +6,7 @@
     }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 767px) {
     .contact-section .contact-item,
     .contact-section .w-50,
     .portfolio-popup .description,
@@ -34,9 +34,12 @@
     .home-section .home-text {
         padding: 100px 0;
     }
+    .home-section .full-screen{
+        padding: 100px 0;
+    }
 
     .home-section .home-img .img-box {
-        min-width: 650px;
+        max-width: 350px!important;
     }
 
     .effect-3 {
@@ -53,9 +56,6 @@
 
     .about-section .about-img {
         padding-bottom: 30px;
-    }
-    .about-section .about-info p{
-        font-size: 12px;
     }
 
     .about-section .timeline .timeline-item:nth-child(odd) {
@@ -93,14 +93,11 @@
         left: -30px;
         right: auto;
     }
-    .service-section,
-    .testimonial-section{
-        min-height: 0;
-    }
+
 
 }
 
-@media only screen and (min-width: 574px) {
+@media only screen and (max-width: 574px) {
     .home-section .home-img .img-box {
         max-width: 260px;
     }
